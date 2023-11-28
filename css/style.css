@@ -1,0 +1,34 @@
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.listCard {
+    text-align: center;
+}
+
+.ulCard {
+    flex-direction: column;
+    text-align: center;
+}
+
+header img {
+    height: 5rem;
+}
+
+.ulFooter {
+    text-align: left;
+    flex-direction: column;
+    list-style: none;
+}
+
+.nav {
+    padding-top: 3%;
+    font-size: smaller;
+}
+
+#bandeauBas {
+    justify-content: space-evenly;
+}
