@@ -29,10 +29,6 @@ ul {
     padding-left: 0;
 }
 
-header img {
-    height: 5rem;
-}
-
 .ulFooter {
     text-align: left;
     flex-direction: column;
@@ -50,6 +46,14 @@ b {
     margin: 0;
     text-align: right;
     word-spacing: 0;
+}
+
+.nav2 {
+    font-weight: 250;
+    margin: 0;
+    text-align: right;
+    word-spacing: 0;
+    margin-top: 1rem;
 }
 
 #bandeauBas {
@@ -86,9 +90,17 @@ b {
     font-weight: 350;
     border-width: 0.1rem;
 }
+
 #boxborder {
     border: none;
     box-shadow: -1px 1px 2px 0px #ebe9e3;
+}
+
+#boxIBANborder {
+    border: none;
+    box-shadow: 5px 5px 2px 0px #ebe9e3;
+    min-height: 8rem;
+    padding: 3rem;
 }
 
 .understart {
@@ -102,4 +114,38 @@ hr {
 
 .paddingtop {
     padding-top: 0.8rem;
+}
+
+#addIBAN {
+    padding-top: 3rem;
+}
+
+#champIBAN {
+    padding
+}
+
+#titleIBAN {
+    font-weight: 450;
+    font-size : 1.2rem;
+}
+
+.allPadding {
+    padding: 1.2rem;
+}
+
+#btnIBAN {
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    font-weight: 230;
+    font-size: 0.9rem;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button a {
+    color: #306dfd;
 }
